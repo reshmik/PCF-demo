@@ -1,7 +1,6 @@
 ---
 applications:
 - name: pcfdemo
-  memory: 512M 
   instances: 1
   host: pcfdemo-broadridge
   path: ./target/pcfdemo.war
