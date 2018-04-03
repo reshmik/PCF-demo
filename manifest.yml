@@ -3,6 +3,6 @@ applications:
 - name: pcfdemo
   memory: 512M 
   instances: 1
-  host: pcfdemo-yourname
+  host: pcfdemo-broadridge
   path: ./target/pcfdemo.war
-  random-route: true
+  #random-route: true
