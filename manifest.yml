@@ -2,6 +2,6 @@
 applications:
 - name: pcfdemo
   instances: 1
-  host: pcfdemo-broadridge
+  #host: pcfdemo-broadridge
   path: ./target/pcfdemo.war
-  #random-route: true
+  random-route: true
