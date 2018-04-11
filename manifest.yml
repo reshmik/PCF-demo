@@ -1,7 +1,9 @@
 ---
 applications:
-- name: pcfdemo
+- name: demoBlueAppV1
+  memory: 1G
   instances: 1
-  #host: pcfdemo-broadridge
+  versions : JAVA_BUILDPACK_9.0
+  host: demoApp_metlife_blueApp_v1
+  buildpack: java_buildpack
   path: ./target/pcfdemo.war
-  random-route: true
